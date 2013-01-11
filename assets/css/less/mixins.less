@@ -1,0 +1,63 @@
+//
+// Mixins
+// --------------------------------------------------
+
+.user-select(@select: all) {
+	-webkit-user-select: @select;
+	 -khtml-user-select: @select;
+	   -moz-user-select: @select;
+		 -o-user-select: @select;
+			user-select: @select;
+}
+
+.transform(@transform: none) {
+	-webkit-transform: @transform;
+	   -moz-transform: @transform;
+		 -o-transform: @transform;
+			transform: @transform;
+}
+
+.transition(@transition: none) {
+	-webkit-transition: @transition;
+	   -moz-transition: @transition;
+		 -o-transition: @transition;
+			transition: @transition;
+}
+
+.border-radius(@radius: 0px) {
+	-webkit-border-radius: @radius;
+	   -moz-border-radius: @radius;
+		 -o-border-radius: @radius;
+			border-radius: @radius;
+}
+
+.box-shadow(@shadow: none) {
+	-webkit-box-shadow: @shadow;
+	   -moz-box-shadow: @shadow;
+		 -o-box-shadow: @shadow;
+			box-shadow: @shadow;
+}
+
+.box-sizing(@box-sizing: none) {
+	-webkit-box-sizing: @box-sizing;
+	   -moz-box-sizing: @box-sizing;
+		 -o-box-sizing: @box-sizing;
+			box-sizing: @box-sizing;
+}
+
+.backface-visibility(@backface-visibility: hidden) {
+	-webkit-backface-visibility: @backface-visibility;
+	   -moz-backface-visibility: @backface-visibility;
+		-ms-backface-visibility: @backface-visibility;
+}
+
+.font-size(@font-size: 16) {
+	@rem: (@font-size / 16);
+	font-size: @font-size * 1px;
+	font-size: ~"@{rem}rem"; 
+}
+
+.opacity(@opacity) {
+	opacity: @opacity / 100;
+	filter: ~"alpha(opacity=@{opacity})";
+}

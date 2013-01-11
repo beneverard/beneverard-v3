@@ -1,0 +1,99 @@
+.museo-slab {
+	font-family: "museo-slab-n3", "museo-slab", serif;
+	font-style: normal;
+}
+
+.museo-slab-regular {
+	.museo-slab;
+	font-weight: 300;
+}
+
+.museo-slab-bold {
+	.museo-slab;
+	font-weight: 500;
+}
+
+body, html {
+	.museo-slab-bold;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	height: 100%;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
+}
+
+html.js-ready.flexbox .align-center {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-webkit-flex-pack: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-flex-align: center;
+}
+
+html.js-ready.no-flexbox .align-center {
+	position: relative;
+}
+
+html.js-ready.no-flexbox .align-center-item {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	.museo-slab-bold;
+	margin: 0 0 1em 0;
+	line-height: 1;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .15);
+}
+
+h2 {
+	font-size: 40px;
+	margin: 0 0 2em 0;
+	text-align: center;
+}
+
+h3 {
+	font-size: 25px;
+	text-align: center;
+}
+
+p {
+	margin : 0 0 1em 0;
+	line-height: 1.5;
+}
+
+hr {
+	padding: 0;
+	border: none;
+	border-top: 1px solid #FFF;
+	color: white;
+	text-align: center;
+	margin: 35px 0;
+	height: 0;
+	.opacity(40);
+}
+
+hr:after {
+	content: "§";
+	display: inline-block;
+	position: relative; 
+	top: -0.65em;  
+	font-size: 1.8em;
+	padding: 0 0.25em;
+}
+
+img {
+	/* Responsive images (ensure images don't scale beyond their parents) */
+	max-width: 100%; /* Part 1: Set a maxium relative to the parent */
+	width: auto\9; /* IE7-8 need help adjusting responsive images */
+	height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic;
+}
