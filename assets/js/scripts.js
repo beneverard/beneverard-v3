@@ -26,9 +26,10 @@ $(document).ready(function() {
 	$('html').addClass('js-ready');
 
 
-						$('.flexslider').flexslider({
-							animation: "slide",
-							pauseOnHover: true
-						});
-						
+	$('.flexslider').flexslider({
+		animation		: "slide",
+		pauseOnHover	: true,
+		directionNav	: false
+	});
+
 });
