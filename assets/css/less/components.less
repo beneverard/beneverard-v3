@@ -82,9 +82,15 @@
 }
 
 @-webkit-keyframes arrow-pulsate {
-	40% { .transform(scale(1)); }
-	50% { .transform(scale(1.2)); }
-	60% { .transform(scale(1)); }
+	40% {
+		.transform(scale(1));
+	}
+	50% {
+		.transform(scale(1.35));
+	}
+	60% {
+		.transform(scale(1));
+	}
 }
 
 .arrow-up {
@@ -96,7 +102,7 @@
 }
 
 .arrow:hover {
-	opacity: 1;
+	.opacity(100);
 }
 
 
