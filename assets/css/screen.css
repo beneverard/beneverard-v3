@@ -694,36 +694,28 @@ html[xmlns] .slides {
   *height: 0;
 }
 .flex-direction-nav a {
+  color: #FFF;
   width: 30px;
   height: 30px;
   margin: -20px 0 0;
   display: block;
-  background: url(images/bg_direction_nav.png) no-repeat 0 0;
   position: absolute;
   top: 50%;
   z-index: 10;
   cursor: pointer;
-  text-indent: -9999px;
-  opacity: 0;
+  opacity: 0.6;
+  text-decoration: none;
   -webkit-transition: all .3s ease;
+  text-align: center;
 }
 .flex-direction-nav .flex-next {
-  background-position: 100% 0;
   right: -36px;
 }
 .flex-direction-nav .flex-prev {
   left: -36px;
 }
-.flexslider:hover .flex-next {
-  opacity: 0.8;
-  right: 5px;
-}
-.flexslider:hover .flex-prev {
-  opacity: 0.8;
-  left: 5px;
-}
-.flexslider:hover .flex-next:hover,
-.flexslider:hover .flex-prev:hover {
+.flex-direction-nav .flex-next:hover,
+.flex-direction-nav .flex-prev:hover {
   opacity: 1;
 }
 .flex-direction-nav .flex-disabled {
@@ -749,7 +741,7 @@ html[xmlns] .slides {
   height: 11px;
   display: block;
   background: #666;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   cursor: pointer;
   text-indent: -9999px;
   -webkit-border-radius: 20px;
@@ -760,11 +752,10 @@ html[xmlns] .slides {
 }
 .flex-control-paging li a:hover {
   background: #333;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
 }
 .flex-control-paging li a.flex-active {
   background: #000;
-  background: rgba(0, 0, 0, 0.9);
   cursor: default;
 }
 .flex-control-thumbs {
