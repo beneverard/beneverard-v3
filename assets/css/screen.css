@@ -509,7 +509,7 @@ img {
 }
 .portfolio {
   padding: 20px 10px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -541,7 +541,7 @@ img {
   margin-bottom: 0.25em;
 }
 .portfolio .project-url a {
-  color: #DADBE6;
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   font-size: 13px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -745,7 +745,7 @@ html[xmlns] .slides {
   height: 11px;
   display: block;
   background: #666;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.1);
   cursor: pointer;
   text-indent: -9999px;
   -webkit-border-radius: 20px;
