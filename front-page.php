@@ -16,7 +16,7 @@
 
 	</div>
 
-	<div id="jadore" class="align-center / pane pane-yellow">
+	<div id="jadore" class="align-center / pane pane-blue">
 
 		<div class="pane-inner / align-center-item">
 
@@ -77,7 +77,7 @@
 
 	</div>
 
-	<div id="portfolio" class="align-center / pane pane-blue">
+	<div id="portfolio" class="align-center / pane pane-yellow">
 
 		<div class="pane-inner / align-center-item">
 			
