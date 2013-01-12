@@ -90,7 +90,7 @@
 
 					<li class="row / portfolio-item">
 				
-						<div class="span_4 col">
+						<div class="span_5 col">
 
 							<figure>
 								<img src="https://dl.dropbox.com/u/813705/Find%20a%20Stockist%20-%20Wood%27s%20Shropshire%20Beersnew.png"/ >
@@ -98,7 +98,7 @@
 
 						</div>
 
-						<div class="span_8 col">
+						<div class="span_7 col">
 
 							<h3>Wood's Brewery</h3>
 							<p class="project-url"><a href="">http://www.woodbrewery.co.uk/find-a-stockist</a></p>
@@ -119,7 +119,7 @@
 
 					<li class="row / portfolio-item">
 				
-						<div class="span_4 col">
+						<div class="span_5 col">
 
 							<figure>
 								<img src="https://dl.dropbox.com/u/813705/Find%20a%20Stockist%20-%20Wood%27s%20Shropshire%20Beersnew.png"/ >
@@ -127,7 +127,7 @@
 
 						</div>
 
-						<div class="span_8 col">
+						<div class="span_7 col">
 
 							<h3>Joe Bloggs</h3>
 							<p class="project-url"><a href="">http://www.woodbrewery.co.uk/find-a-stockist</a></p>
