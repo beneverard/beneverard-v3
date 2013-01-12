@@ -25,3 +25,5 @@
 
 	</head>
 	<body>
+
+		<a href="#" class="blog-link">Blog</a>
