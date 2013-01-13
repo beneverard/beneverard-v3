@@ -22,53 +22,36 @@
 
 			<h2 class="tagline">j'adore le web</h2>
 
-			<div class="row / skills">
+			<?php if ( get_field('skills_lists') ) : ?>
 
-				<div class="span_4 col">
-					
-					<h3>I specialise in</h3>
-					<p><span class="ss-icon ss-standard ss-down"></span></p>
+				<div class="row / skills">
 
-					<ul>
-						<li>PHP Development</li>
-						<li>WordPress</li>
-						<li>CodeIgniter</li>
-						<li>JavaScript + jQuery</li>
-						<li>HTML + CSS</li>				
-					</ul>
-				
-				</div>
-			
-				<div class="span_4 col">
-					
-					<h3>I'm passionate about</h3>
-					<p><span class="ss-icon ss-standard ss-down"></span></p>
+					<?php while ( has_sub_field('skills_lists') ) : ?>
 
-					<ul>
-						<li>Efficient + maintainable code</li>
-						<li>Great design + user experience</li>
-						<li>Performance optimisation</li>
-						<li>Contributing to the community</li>							
-					</ul>
-					
-				</div>
-			
-				<div class="span_4 col">
-					
-					<h3>I don't do</h3>
-					<p><span class="ss-icon ss-standard ss-down"></span></p>
+						<div class="span_4 col">
+							
+							<h3><?php the_sub_field('skills_list_title'); ?></h3>
+							<p><span class="ss-icon ss-standard ss-down"></span></p>
 
-					<ul>
-						<li>Design</li>
-						<li><strong>However…</strong></li>
-						<li>I appreciate good design</li>
-						<li>I work with great designers</li>
-						<li>So if you need design services,<br />I have the contacts :-)</li>
-					</ul>
+							<?php if ( get_sub_field('skills_list_items') ) : ?>
+
+								<ul>
+
+									<?php while ( has_sub_field('skills_list_items') ) : ?>
+										<li><?php the_sub_field('skills_list_item'); ?></li>
+									<?php endwhile; ?>
+
+								</ul>
+
+							<?php endif; ?>
+
+						</div>
+
+					<?php endwhile; ?>
 
 				</div>
 
-			</div>
+			<?php endif; ?>
 
 		</div>
 
