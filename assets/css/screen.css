@@ -291,11 +291,17 @@ table {
 }
 .museo-sans-rounded {
   font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
+  font-style: normal;
 }
 .museo-sans-rounded-regular {
   font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
   font-style: normal;
   font-weight: 300;
+}
+.museo-sans-rounded-bold {
+  font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 body,
 html {
@@ -620,7 +626,7 @@ img {
 .blog-link {
   font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   position: fixed;
   top: 0;
   right: 20px;
@@ -639,6 +645,7 @@ img {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   text-decoration: none;
+  text-shadow: none;
   z-index: 1;
 }
 .blog-link:hover,
