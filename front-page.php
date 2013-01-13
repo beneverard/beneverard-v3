@@ -6,9 +6,9 @@
 
 		<div class="pane-inner / align-center-item / intro">
 
-			<h1>Ben Everard</h1>
+			<h1><?php the_field('homepage_title'); ?></h1>
 			<hr>
-			<h2>Web Developer</h2>
+			<h2><?php the_field('homepage_tagline'); ?></h2>
 
 		</div>
 
