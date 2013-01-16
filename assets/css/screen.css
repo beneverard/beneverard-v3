@@ -408,6 +408,7 @@ img {
 .pane-inner {
   padding: 4em 7.5em;
   width: 100%;
+  max-width: 1400px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
