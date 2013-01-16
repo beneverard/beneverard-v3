@@ -98,9 +98,9 @@
 								<div class="span_7 col / portfolio-content">
 
 									<h3><?php the_title(); ?></h3>
-									<p class="project-url"><a href="">http://www.woodbrewery.co.uk/find-a-stockist</a></p>
+									<p class="project-url"><a href="<?php the_field('project_url'); ?>"><?php the_field('project_url'); ?></a></p>
 
-									<?php the_content(); ?>
+									<?php the_excerpt(); ?>
 
 									<a class="project-link" href="<?php the_permalink(); ?>">View Project</a>
 
