@@ -152,27 +152,44 @@
 	height: 100%;
 }
 
-.portfolio ul {
+.portfolio .slides {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	list-style: none;
-}
-
-.portfolio li {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	float: left;
-}
-
-.portfolio li .col {
-	height: 100%;
-}
-
-.portfolio h3 {
-	text-align: left;
-	margin-bottom: 0.25em;
+	> li {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		float: left;
+		.col {
+			position: relative;
+			height: 100%;
+		}
+		.project-link {
+			.museo-sans-rounded-regular;
+			position: absolute;
+			bottom: 0;
+			left: 10px;
+			background-color: rgba(0, 0, 0, .2);
+			color: #FFF;
+			padding: 0.5em;
+			.border-radius(5px);
+			text-shadow: none;
+			text-decoration: none;
+			.transition(all 0.3s ease-in-out);
+		}
+		.project-link:hover {
+			background-color: rgba(0, 0, 0, .3);
+		}
+		.portfolio-content {
+			padding-bottom: 45px;
+		}
+	}
+	h3 {
+		text-align: left;
+		margin-bottom: 0.25em;
+	}
 }
 
 .portfolio .project-url a {

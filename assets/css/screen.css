@@ -536,22 +536,50 @@ img {
 .flex-viewport {
   height: 100%;
 }
-.portfolio ul {
+.portfolio .slides {
   margin: 0;
   padding: 0;
   height: 100%;
   list-style: none;
 }
-.portfolio li {
+.portfolio .slides > li {
   margin: 0;
   padding: 0;
   height: 100%;
   float: left;
 }
-.portfolio li .col {
+.portfolio .slides > li .col {
+  position: relative;
   height: 100%;
 }
-.portfolio h3 {
+.portfolio .slides > li .project-link {
+  font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #FFF;
+  padding: 0.5em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: none;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio .slides > li .project-link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.portfolio .slides > li .portfolio-content {
+  padding-bottom: 45px;
+}
+.portfolio .slides h3 {
   text-align: left;
   margin-bottom: 0.25em;
 }
