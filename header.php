@@ -26,6 +26,6 @@
 		<?php wp_head(); ?>
 
 	</head>
-	<body>
+	<body <?php body_class(); ?>>
 
 		<a href="#" class="blog-link">Blog</a>
