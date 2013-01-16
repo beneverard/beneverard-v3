@@ -66,72 +66,64 @@
 			
 			<h2>portfolio</h2>
 
-			<!-- Place somewhere in the <body> of your page -->
-			<div class="flexslider / portfolio">
+			<?php 
+
+				$projects = new WP_Query(
+					array(
+						'post_type'			=> 'project',
+						'posts_per_page'	=> 5
+					)
+				);
+
+			?>
+
+			<?php if ( $projects->have_posts() ) : ?>
+
+				<div class="flexslider / portfolio">
 			
-				<ul class="slides">
+					<ul class="slides">
 
-					<li class="row / portfolio-item">
-				
-						<div class="span_5 col">
+						<?php while ( $projects->have_posts() ) : $projects->the_post(); ?>
 
-							<figure>
-								<img src="https://dl.dropbox.com/u/813705/Find%20a%20Stockist%20-%20Wood%27s%20Shropshire%20Beersnew.png"/ >
-							</figure>
+							<li class="row / portfolio-item">
+						
+								<div class="span_5 col">
 
-						</div>
+									<figure>
+										<?php the_post_thumbnail('project-medium'); ?>
+									</figure>
 
-						<div class="span_7 col">
+								</div>
 
-							<h3>Wood's Brewery</h3>
-							<p class="project-url"><a href="">http://www.woodbrewery.co.uk/find-a-stockist</a></p>
+								<div class="span_7 col / portfolio-content">
 
-							<p>I was asked by Kirsty Burgoine to assist with the re-design of the Wood’s Shropshire Beers website by developing a stockist finder. Wood’s Brewery have many stockists in the form of pubs and shops and it is vital to allow customers to easily find the nearest stockist.</p>
-							<p>For this project I used the Google Maps API (helped along with gmaps.js), all stockists are stored as a custom post type within WordPress for easy administration for the client. When a user types their postcode in we use Google geocode service to get their latitude and longitude coordinates and then calculate the distance for all stockists. Any within the desired maximum distance are plotted on the map.</p>
+									<h3><?php the_title(); ?></h3>
+									<p class="project-url"><a href="">http://www.woodbrewery.co.uk/find-a-stockist</a></p>
 
-							<ul>
-								<li><strong>Client:</strong> Wood's Brewery</li>
-								<li><strong>Sub-Contracted For:</strong> Kirsty Burgoine</li>
-								<li><strong>Project Tasks:</strong> Develop Stockist Locator</li>
-								<li><strong>Technologies Used:</strong> jQuery, Goole Maps APU, gmaps.js, WordPress custom post types and meta fields</li>
-							</ul>
+									<?php the_content(); ?>
 
-						</div>
+									<a class="project-link" href="<?php the_permalink(); ?>">View Project</a>
 
-					</li>
+									<!--
+									<ul>
+										<li><strong>Client:</strong> Wood's Brewery</li>
+										<li><strong>Sub-Contracted For:</strong> Kirsty Burgoine</li>
+										<li><strong>Project Tasks:</strong> Develop Stockist Locator</li>
+										<li><strong>Technologies Used:</strong> jQuery, Goole Maps APU, gmaps.js, WordPress custom post types and meta fields</li>
+									</ul>
+									-->
 
-					<li class="row / portfolio-item">
-				
-						<div class="span_5 col">
+								</div>
 
-							<figure>
-								<img src="https://dl.dropbox.com/u/813705/Find%20a%20Stockist%20-%20Wood%27s%20Shropshire%20Beersnew.png"/ >
-							</figure>
+							</li>
 
-						</div>
+						<?php endwhile; ?>
 
-						<div class="span_7 col">
+					</ul>
 
-							<h3>Joe Bloggs</h3>
-							<p class="project-url"><a href="">http://www.woodbrewery.co.uk/find-a-stockist</a></p>
+				</div>
 
-							<p>I was asked by Kirsty Burgoine to assist with the re-design of the Wood’s Shropshire Beers website by developing a stockist finder. Wood’s Brewery have many stockists in the form of pubs and shops and it is vital to allow customers to easily find the nearest stockist.</p>
-							<p>For this project I used the Google Maps API (helped along with gmaps.js), all stockists are stored as a custom post type within WordPress for easy administration for the client. When a user types their postcode in we use Google geocode service to get their latitude and longitude coordinates and then calculate the distance for all stockists. Any within the desired maximum distance are plotted on the map.</p>
-
-							<ul>
-								<li><strong>Client:</strong> Wood's Brewery</li>
-								<li><strong>Sub-Contracted For:</strong> Kirsty Burgoine</li>
-								<li><strong>Project Tasks:</strong> Develop Stockist Locator</li>
-								<li><strong>Technologies Used:</strong> jQuery, Goole Maps APU, gmaps.js, WordPress custom post types and meta fields</li>
-							</ul>
-
-						</div>
-
-					</li>
-
-				</ul>
-
-			</div>
+			<?php endif; /* AND */ wp_reset_postdata(); ?>
 
 		</div>
 
