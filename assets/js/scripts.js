@@ -32,4 +32,10 @@ $(document).ready(function() {
 		directionNav	: false
 	});
 
+	if ( $('body.single-project').length ) {
+
+		$('.portfolio').css('height', $('.portfolio-content').height());
+
+	}
+
 });
