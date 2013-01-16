@@ -4,6 +4,8 @@
 	<head>
 
 		<meta charset='UTF-8'>
+		
+		<title><?php wp_title('&raquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/fonts/ss-social/ss-social.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/fonts/ss-standard/ss-standard.css">
