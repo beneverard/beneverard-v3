@@ -130,9 +130,9 @@
 			<h2>hire me</h2>
 
 			<ul class="hire-me">
-				<li><a href="skype:ben.everard?add" title="Skype Me"><span class="ss-icon fancy ss-social ss-skype"></span> ben.everard</a></li>
-				<li><a href="mailto:hello@beneverard.co.uk" title="Email Me"><span class="ss-icon fancy ss-social ss-mail"></span> hello@beneverard.co.uk</a></li>
-				<li><a href="tel:00447549925328" title="Call Me"><span class="ss-icon fancy ss-standard ss-phone"></span> 07549 925 328</a></li>
+				<li><a href="skype:<?php the_field('skype_username', 'options'); ?>?add" title="Skype Me"><span class="ss-icon fancy ss-social ss-skype"></span> <?php the_field('skype_username', 'options'); ?></a></li>
+				<li><a href="mailto:<?php the_field('email_address', 'options'); ?>" title="Email Me"><span class="ss-icon fancy ss-social ss-mail"></span> <?php the_field('email_address', 'options'); ?></a></li>
+				<li><a href="tel:0044<?php echo str_replace(' ', '', substr(get_field('telephone_number', 'options'), 1)); ?>" title="Call Me"><span class="ss-icon fancy ss-standard ss-phone"></span> <?php the_field('telephone_number', 'options'); ?></a></li>
 			</ul>
 
 		</div>
