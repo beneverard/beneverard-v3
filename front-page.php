@@ -104,15 +104,6 @@
 
 									<a class="project-link" href="<?php the_permalink(); ?>">View Project</a>
 
-									<!--
-									<ul>
-										<li><strong>Client:</strong> Wood's Brewery</li>
-										<li><strong>Sub-Contracted For:</strong> Kirsty Burgoine</li>
-										<li><strong>Project Tasks:</strong> Develop Stockist Locator</li>
-										<li><strong>Technologies Used:</strong> jQuery, Goole Maps APU, gmaps.js, WordPress custom post types and meta fields</li>
-									</ul>
-									-->
-
 								</div>
 
 							</li>
