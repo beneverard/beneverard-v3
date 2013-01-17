@@ -305,44 +305,11 @@ table {
     width: 100%;
   }
 }
-.museo-slab {
-  font-family: "museo-slab-n3", "museo-slab", serif;
-  font-style: normal;
-}
-.museo-slab-light {
-  font-family: "museo-slab-n3", "museo-slab", serif;
-  font-style: normal;
-  font-weight: 300;
-}
-.museo-slab-medium {
-  font-family: "museo-slab-n3", "museo-slab", serif;
-  font-style: normal;
-  font-weight: 500;
-}
-.museo-slab-bold {
-  font-family: "museo-slab-n3", "museo-slab", serif;
-  font-style: normal;
-  font-weight: 700;
-}
-.museo-sans-rounded {
-  font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
-  font-style: normal;
-}
-.museo-sans-rounded-regular {
-  font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
-.museo-sans-rounded-bold {
-  font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-}
 body,
 html {
-  font-family: "museo-slab-n3", "museo-slab", serif;
-  font-style: normal;
+  font-family: "museo-sans-rounded-n5", "museo-sans-rounded", sans-serif;
   font-weight: 500;
+  font-style: normal;
   margin: 0;
   padding: 0;
   color: #FFF;
