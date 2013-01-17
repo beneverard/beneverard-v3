@@ -7,7 +7,7 @@
 		<div class="align-center / pane pane-blue">
 
 			<div class="pane-inner / align-center-item">
-				<h2 class="tagline"><?php the_title(); ?></h2>
+				<h2 class="tagline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			</div>	
 
 		</div>
@@ -17,6 +17,7 @@
 			<div class="pane-inner / align-center-item">
 
 				<article>
+					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<?php the_content(); ?>
 				</article>
 
