@@ -53,7 +53,7 @@ function _register_post_type($slug, $label_singular, $label_plural, $args = arra
 }
 
 _register_post_type(
-	'project',
+	'projects',
 	'Project',
 	'Projects',
 	array(

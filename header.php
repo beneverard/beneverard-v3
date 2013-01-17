@@ -42,7 +42,7 @@
 				<a href="/">&laquo; Home</a>
 			<?php endif; ?>
 
-			<a href="/project">Portfolio</a>
+			<a href="/projects">Portfolio</a>
 			<a href="/blog">Blog</a>
 
 		</div>
