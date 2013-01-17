@@ -1,13 +1,5 @@
 $(document).ready(function() {
 
-	$("[href^='#']").on('click', function(event) {
-
-		event.preventDefault();
-
-		$.scrollTo( $($(this).attr('href')), 1000 );
-
-	});
-
 	// if modernizr has said we don't have flexbox support we need to
 	// start calculating element heights to allow for margin: auto fix
 
