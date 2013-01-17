@@ -427,6 +427,11 @@ img {
 
   vertical-align: middle;
   -ms-interpolation-mode: bicubic;
+  border: 5px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
 }
 article {
   font-size: 18px;
