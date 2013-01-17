@@ -476,14 +476,17 @@ pre {
 .pane-yellow {
   background-color: #FDBC1D;
 }
+.pane-orange {
+  background-color: #FF8200;
+}
+.pane-red {
+  background-color: #F25E3D;
+}
 .pane-blue {
   background-color: #06B1FF;
 }
 .pane-pink {
   background-color: #FF4969;
-}
-.pane-red {
-  background-color: #F25E3D;
 }
 .pane-background {
   background-size: cover;
