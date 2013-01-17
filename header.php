@@ -28,4 +28,13 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<a href="/blog" class="blog-link">Blog</a>
+		<div class="fixed-links">
+
+			<?php if ( is_home() || is_single() ) : ?>
+				<a href="/">&laquo; Home</a>
+			<?php endif; ?>
+
+			<a href="/portfolio">Portfolio</a>
+			<a href="/blog">Blog</a>
+
+		</div>
