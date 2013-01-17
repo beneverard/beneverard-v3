@@ -70,7 +70,7 @@
 
 				$projects = new WP_Query(
 					array(
-						'post_type'			=> 'project',
+						'post_type'			=> 'projects',
 						'posts_per_page'	=> 5
 					)
 				);
