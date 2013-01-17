@@ -38,7 +38,7 @@
 
 		<div class="fixed-links">
 
-			<?php if ( is_home() || is_single() ) : ?>
+			<?php if ( ! is_home() ) : ?>
 				<a href="/">&laquo; Home</a>
 			<?php endif; ?>
 
