@@ -647,7 +647,7 @@ pre {
   margin-bottom: 0;
 }
 .portfolio-item figure {
-  overflow-y: scroll;
+  overflow-y: hidden;
   /* consider making this scroll, so the image can be scrolled up and down */
 
   width: 100%;
