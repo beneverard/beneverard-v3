@@ -28,4 +28,4 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<a href="#" class="blog-link">Blog</a>
+		<a href="/blog" class="blog-link">Blog</a>
