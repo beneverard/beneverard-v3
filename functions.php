@@ -11,6 +11,7 @@ add_theme_support('menus');
  //****************
 // THUMBNAIL SIZES
 
+add_image_size('project-thumbnail', 405, 300, TRUE);
 add_image_size('project-medium', 405, 99999, FALSE);
 
 
