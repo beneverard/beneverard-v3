@@ -4,11 +4,11 @@
 
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-		<div class="align-center / pane pane-blue">
+		<div class="align-center / pane pane-red">
 
 			<div class="pane-inner / align-center-item">
 	
-				<h2 class="tagline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				<h2 class="tagline"><a href="<?php the_permalink(); ?>#content"><?php the_title(); ?></a></h2>
 
 			</div>	
 
