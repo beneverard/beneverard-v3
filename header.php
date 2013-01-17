@@ -38,7 +38,7 @@
 
 		<div class="fixed-links">
 
-			<?php if ( ! is_home() ) : ?>
+			<?php if ( ! is_front_page() ) : ?>
 				<a href="/">&laquo; Home</a>
 			<?php endif; ?>
 
