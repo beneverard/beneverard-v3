@@ -90,7 +90,7 @@
 								<div class="span_5 col">
 
 									<figure>
-										<?php the_post_thumbnail('project-thumbnail'); ?>
+										<?php the_post_thumbnail('project-medium'); ?>
 									</figure>
 
 								</div>
