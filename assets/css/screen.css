@@ -343,12 +343,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "museo-slab-n3", "museo-slab", serif;
-  font-style: normal;
+  font-family: "museo-slab-n7", "museo-slab", serif;
   font-weight: 700;
+  font-style: normal;
   margin: 0 0 1em 0;
-  line-height: 1;
+  line-height: 1.5;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none;
 }
 h2 {
   font-size: 70px;
