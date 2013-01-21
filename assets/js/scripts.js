@@ -26,16 +26,29 @@ $(document).ready(function() {
 	$('html').addClass('js-ready');
 
 
+	 //********
+	// $SLIDER
+
 	$('.flexslider').flexslider({
 		animation		: "slide",
 		pauseOnHover	: true,
 		directionNav	: false
 	});
 
+
+	 //****************
+	// $COLUMN_HEIGHTS
+	
 	if ( $('body.single-project').length ) {
 
 		$('.portfolio').css('height', $('.portfolio-content').height());
 
 	}
+
+
+	 //*******
+	// $VIDEO
+
+	$('.pane-inner').fitVids();
 
 });
