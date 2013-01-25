@@ -36,7 +36,7 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<div class="fixed-links">
+		<div class="header-links">
 
 			<?php if ( ! is_front_page() ) : ?>
 				<a href="/">&laquo; Home</a>
