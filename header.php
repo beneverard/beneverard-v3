@@ -6,6 +6,10 @@
 		<?php // META ?>
 		<meta charset='UTF-8'>
 		<meta name="author" content="Ben Everard" />
+
+		<!-- http://t.co/dKP3o1e -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
 		
 		<?php // TYPEKIT ?>
 		<script type="text/javascript">
