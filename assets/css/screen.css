@@ -613,6 +613,12 @@ pre {
   
 }
 @media screen and (min-width: 30em) {
+  
+}
+@media screen and (min-width: 600px) {
+  
+}
+@media screen and (min-width: 48em) {
   .header-links {
     font-size: 14px;
     font-size: 0.875rem;
@@ -662,12 +668,6 @@ pre {
     -o-border-radius: 0 0 6px 0;
     border-radius: 0 0 6px 0;
   }
-}
-@media screen and (min-width: 600px) {
-  
-}
-@media screen and (min-width: 768px) {
-  
 }
 @media screen and (min-width: 992px) {
   
