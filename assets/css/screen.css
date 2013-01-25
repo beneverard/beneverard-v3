@@ -532,6 +532,11 @@ pre {
   text-decoration: none;
   border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
+.header-links a:hover,
+.header-links a:active,
+.header-links a:focus {
+  background-color: rgba(0, 0, 0, 0.035);
+}
 .header-links a:last-child {
   border-right: 0;
 }
