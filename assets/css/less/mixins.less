@@ -51,6 +51,12 @@
 		-ms-backface-visibility: @backface-visibility;
 }
 
+.background-clip(@background-clip) {
+	-webkit-background-clip: @background-clip;
+	   -moz-background-clip: @background-clip;
+			background-clip: @background-clip
+}
+
 .font-size(@font-size: 16) {
 	@rem: (@font-size / 16);
 	font-size: @font-size * 1px;
