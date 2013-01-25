@@ -530,7 +530,7 @@ pre {
   box-sizing: border-box;
   text-align: center;
   text-decoration: none;
-  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  border-right: 1px solid #EEE;
 }
 .header-links a:hover,
 .header-links a:active,
