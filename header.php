@@ -42,10 +42,7 @@
 
 		<div class="header-links">
 
-			<?php if ( ! is_front_page() ) : ?>
-				<a href="/">&laquo; Home</a>
-			<?php endif; ?>
-
+			<a href="/">&laquo; Home</a>
 			<a href="/projects">Portfolio</a>
 			<a href="/blog">Blog</a>
 
