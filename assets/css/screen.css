@@ -298,17 +298,20 @@ html {
   -moz-box-align: center;
   -webkit-flex-align: center;
 }
+/*
 html.js-ready.no-flexbox .align-center {
-  position: relative;
+	position: relative;
 }
+
 html.js-ready.no-flexbox .align-center-item {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
 }
+*/
 h1,
 h2,
 h3,
