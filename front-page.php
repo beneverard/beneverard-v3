@@ -77,6 +77,8 @@
 
 			?>
 
+			<?php // non-mobile version ?>
+
 			<?php if ( $projects->have_posts() ) : ?>
 
 				<div class="flexslider / portfolio">
@@ -113,6 +115,32 @@
 					</ul>
 
 				</div>
+
+			<?php endif; /* AND */ wp_reset_postdata(); ?>
+
+			<?php // mobile version ?>
+
+			<?php if ( $projects->have_posts() ) : ?>
+
+				<div class="mobile-portfolio">
+
+					<?php while ( $projects->have_posts() ) : $projects->the_post(); ?>
+
+						<div class="stretchy-wrapper">
+
+							<figure>
+								
+								<a href="<?php the_permalink(); ?>">
+									<?php the_post_thumbnail('project-medium'); ?>
+								</a>
+
+							</figure>
+
+						</div>
+
+					<?php endwhile; ?>
+
+				</div> <!-- / .mobile-portfolio -->
 
 			<?php endif; /* AND */ wp_reset_postdata(); ?>
 
