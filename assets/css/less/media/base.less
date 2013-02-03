@@ -117,6 +117,18 @@ img {
 	-ms-interpolation-mode: bicubic;
 	border: 5px solid rgba(0, 0, 0, .15);
 	.border-radius(4px);
+	.box-sizing(border-box);
+}
+
+figure {
+	border: 5px solid rgba(0, 0, 0, .15);
+	.border-radius(4px);
+	.box-sizing(border-box);
+	overflow: hidden;
+	img {
+		border: 0;
+		.border-radius(0);
+	}
 }
 
 article {
