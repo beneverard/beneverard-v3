@@ -579,10 +579,35 @@ pre {
   opacity: 1;
   filter: alpha(opacity=100);
 }
-@media screen and (min-width: 320px) {
 .flexslider.portfolio {
   display: none;
 }
+.stretchy-wrapper {
+  width: 100%;
+  padding-bottom: 75%;
+  /* 4:3; */
+
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+.stretchy-wrapper div,
+.stretchy-wrapper figure {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.stretchy-wrapper figure {
+  height: 100%;
+}
+/* Other aspect ratios to try:
+ * 56.25% = 16:9
+ * 75% = 4:3
+ * 66.66% = 3:2
+ * 62.5% = 8:5
+ */@media screen and (min-width: 320px) {
   
 }
 @media screen and (min-width: 30em) {
