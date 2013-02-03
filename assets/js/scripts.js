@@ -8,6 +8,8 @@ $(document).ready(function() {
 
 	});
 
+	/*
+
 	// if modernizr has said we don't have flexbox support we need to
 	// start calculating element heights to allow for margin: auto fix
 
@@ -24,6 +26,8 @@ $(document).ready(function() {
 	}
 
 	$('html').addClass('js-ready');
+
+	*/
 
 
 	 //********
