@@ -563,6 +563,8 @@ pre {
 }
 .skills p {
   display: none;
+  text-align: center;
+  margin-bottom: 2em;
 }
 .skills ul {
   font-size: 16px;
