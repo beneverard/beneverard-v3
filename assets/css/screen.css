@@ -686,11 +686,20 @@ pre {
   }
 }
 @media screen and (min-width: 992px) {
-  
   h2 {
     font-size: 70px;
     margin: 0 0 1.5em 0;
     text-align: center;
+  }
+  .col {
+    min-width: auto;
+  }
+  .skills p {
+    display: block;
+  }
+  .skills ul {
+    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 @media screen and (min-width: 1382px) {
