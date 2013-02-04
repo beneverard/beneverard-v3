@@ -623,12 +623,7 @@ pre {
 .stretchy-wrapper figure {
   height: 100%;
 }
-/* Other aspect ratios to try:
- * 56.25% = 16:9
- * 75% = 4:3
- * 66.66% = 3:2
- * 62.5% = 8:5
- */@media screen and (min-width: 30em) {
+@media screen and (min-width: 30em) {
   .hire-me {
     font-size: 20px;
     font-size: 1.25rem;
