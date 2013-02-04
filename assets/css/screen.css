@@ -455,10 +455,6 @@ pre {
   text-shadow: none;
   overflow-x: scroll;
 }
-.col {
-  min-width: 100%;
-  margin-bottom: 2em;
-}
 .pane {
   position: relative;
   min-height: 100%;
@@ -550,6 +546,10 @@ pre {
 }
 .arrow {
   display: none;
+}
+.skills .col {
+  min-width: 100%;
+  margin-bottom: 2em;
 }
 .skills h3 {
   margin-bottom: 0.5em;
@@ -700,7 +700,7 @@ pre {
     margin: 0 0 1.5em 0;
     text-align: center;
   }
-  .col {
+  .skills .col {
     min-width: auto;
   }
   .skills p {
