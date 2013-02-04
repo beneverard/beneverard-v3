@@ -629,7 +629,10 @@ pre {
  * 66.66% = 3:2
  * 62.5% = 8:5
  */@media screen and (min-width: 30em) {
-  
+  .hire-me {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
 }
 @media screen and (min-width: 600px) {
   
