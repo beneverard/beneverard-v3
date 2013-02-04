@@ -687,6 +687,12 @@ pre {
     -o-border-radius: 0 0 6px 0;
     border-radius: 0 0 6px 0;
   }
+  .flexslider.portfolio {
+    display: block;
+  }
+  .mobile-portfolio {
+    display: none;
+  }
 }
 @media screen and (min-width: 992px) {
   h2 {
