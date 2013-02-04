@@ -635,10 +635,7 @@ pre {
  * 75% = 4:3
  * 66.66% = 3:2
  * 62.5% = 8:5
- */@media screen and (min-width: 320px) {
-  
-}
-@media screen and (min-width: 30em) {
+ */@media screen and (min-width: 30em) {
   
 }
 @media screen and (min-width: 600px) {
