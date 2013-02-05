@@ -798,6 +798,10 @@ pre {
   .mobile-portfolio {
     display: none;
   }
+  .hire-me {
+    font-size: 28px;
+    font-size: 1.75rem;
+  }
 }
 @media screen and (min-width: 992px) {
   h2 {
@@ -904,35 +908,6 @@ pre {
   bottom: 30px;
 }
 .arrow:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-.zzzhire-me {
-  font-size: 28px;
-  font-size: 1.75rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.zzzhire-me li {
-  margin: 0;
-  padding: 0;
-  line-height: 1.8;
-  text-align: center;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.zzzhire-me a {
-  color: #FFF;
-  text-decoration: none;
-}
-.zzzhire-me:hover li {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-.zzzhire-me li:hover {
   opacity: 1;
   filter: alpha(opacity=100);
 }
