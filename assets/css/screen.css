@@ -343,11 +343,13 @@ h6:last-child {
 }
 h2 {
   font-size: 40px;
+  font-size: 2.5rem;
   margin: 0 0 1.5em 0;
   text-align: center;
 }
 h3 {
   font-size: 25px;
+  font-size: 1.5625rem;
   text-align: center;
 }
 a {
@@ -660,6 +662,7 @@ pre {
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   font-size: 13px;
+  font-size: 0.8125rem;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -809,6 +812,7 @@ pre {
 @media screen and (min-width: 992px) {
   h2 {
     font-size: 70px;
+    font-size: 4.375rem;
     margin: 0 0 1.5em 0;
     text-align: center;
   }
