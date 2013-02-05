@@ -361,13 +361,16 @@ pre {
 			}
 		}
 	}
-	.project-url a {
-		color: rgba(255, 255, 255, .9);
-		text-decoration: none;
-		font-size: 13px;
-		-webkit-transition: all 0.3s ease-in-out;
-		&:hover, &:active, &:focus {
-			color: #FFF;
+	.project-url {
+		line-height: 1;
+		a {
+			color: rgba(255, 255, 255, .9);
+			text-decoration: none;
+			font-size: 13px;
+			.transition(all 0.3s ease-in-out);
+			&:hover, &:active, &:focus {
+				color: #FFF;
+			}
 		}
 	}
 	p:last-child {
