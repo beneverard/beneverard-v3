@@ -128,17 +128,13 @@
 
 						<?php $image = get_field('project_thumbnail'); ?>
 
-						<div class="stretchy-wrapper">
+						<figure>
+							
+							<a href="<?php the_permalink(); ?>" title="Click to view the '<?php the_title(); ?>' project">
+								<img src="<?php echo $image['sizes']['project-thumbnail']; ?>" alt="<?php the_title(); ?>" />
+							</a>
 
-							<figure>
-								
-								<a href="<?php the_permalink(); ?>" title="Click to view the '<?php the_title(); ?>' project">
-									<img src="<?php echo $image['sizes']['project-thumbnail']; ?>" alt="<?php the_title(); ?>" />
-								</a>
-
-							</figure>
-
-						</div>
+						</figure>
 
 					<?php endwhile; ?>
 

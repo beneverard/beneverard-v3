@@ -716,25 +716,8 @@ pre {
 .flex-viewport {
   height: 100%;
 }
-.stretchy-wrapper {
-  width: 100%;
-  padding-bottom: 75%;
-  /* 4:3; */
-
-  position: relative;
-  overflow: hidden;
+.mobile-portfolio figure {
   margin-bottom: 1em;
-}
-.stretchy-wrapper div,
-.stretchy-wrapper figure {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.stretchy-wrapper figure {
-  height: 100%;
 }
 @media screen and (min-width: 30em) {
   .hire-me {
