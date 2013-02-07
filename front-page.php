@@ -126,12 +126,14 @@
 
 					<?php while ( $projects->have_posts() ) : $projects->the_post(); ?>
 
+						<?php $image = get_field('project_thumbnail'); ?>
+
 						<div class="stretchy-wrapper">
 
 							<figure>
 								
-								<a href="<?php the_permalink(); ?>">
-									<?php the_post_thumbnail('project-medium'); ?>
+								<a href="<?php the_permalink(); ?>" title="Click to view the '<?php the_title(); ?>' project">
+									<img src="<?php echo $image['sizes']['project-thumbnail']; ?>" alt="<?php the_title(); ?>" />
 								</a>
 
 							</figure>
