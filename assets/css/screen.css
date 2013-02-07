@@ -717,7 +717,27 @@ pre {
   height: 100%;
 }
 .mobile-portfolio figure {
+  position: relative;
   margin-bottom: 1em;
+}
+.mobile-portfolio figure .portfolio-inner-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 0 0.5em 0 0;
+  -moz-border-radius: 0 0.5em 0 0;
+  -o-border-radius: 0 0.5em 0 0;
+  border-radius: 0 0.5em 0 0;
+  padding: 1em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+.mobile-portfolio figure:hover .portfolio-inner-link {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 @media screen and (min-width: 30em) {
   .hire-me {

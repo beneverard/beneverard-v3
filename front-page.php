@@ -134,6 +134,8 @@
 								<img src="<?php echo $image['sizes']['project-thumbnail']; ?>" alt="<?php the_title(); ?>" />
 							</a>
 
+							<a href="<?php the_permalink(); ?>" class="portfolio-inner-link"><?php the_title(); ?></a>
+
 						</figure>
 
 					<?php endwhile; ?>
