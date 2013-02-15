@@ -33,7 +33,11 @@
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/fonts/ss-standard/ss-standard.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/screen.css">
 
+		<?php // JAVASCRIPT ?>
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/libs/modernizr-custom.js"></script>
+
+		<?php // FEEDS ?>
+		<link rel="alternate" type="application/rss+xml" title="Ben Everard, Web Developer Feed" href="/feed/" />
 
 		<?php wp_head(); ?>
 
