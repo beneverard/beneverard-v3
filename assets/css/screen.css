@@ -614,7 +614,6 @@ pre {
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  height: 300px;
   margin: 0 50px;
 }
 .portfolio .slides {
@@ -628,6 +627,19 @@ pre {
   padding: 0;
   height: 100%;
   float: left;
+  display: table;
+  /*.portfolio-excerpt {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+			}*/
+
+}
+.portfolio .slides > li .col {
+  display: table-cell;
+  height: 100%;
 }
 .portfolio .slides > li .project-link {
   font-family: "museo-sans-rounded-n3", "museo-sans-rounded", sans-serif;
@@ -739,12 +751,6 @@ pre {
 }
 .mobile-portfolio figure:hover .portfolio-inner-link {
   background-color: rgba(0, 0, 0, 0.8);
-}
-@media screen and (min-width: 30em) {
-  .hire-me {
-    font-size: 20px;
-    font-size: 1.25rem;
-  }
 }
 @media screen and (min-width: 600px) {
   .hire-me {

@@ -8,12 +8,11 @@
 @import "grid.less";
 
 // media quries
-@import "media/base.less";
-@import "media/480.less";
-@import "media/600.less";
-@import "media/768.less";
-@import "media/992.less";
-@import "media/1382.less";
+@import "media/mobile_p.less";
+@media screen and (min-width: 600px) { @import "media/mobile_l.less"; }
+@media screen and (min-width: 48em) { @import "media/tablet_p.less"; }
+@media screen and (min-width: 992px) { @import "media/tablet_l.less"; }
+@media screen and (min-width: 1382px) { @import "media/desktop.less"; }
 
 // components, utilities etc
 @import "extra/utilities.less";
