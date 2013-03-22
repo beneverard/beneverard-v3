@@ -575,8 +575,8 @@ pre {
   padding: 0;
 }
 .hire-me {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 20px;
+  font-size: 1.25rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -686,6 +686,9 @@ pre {
 .portfolio .project-url a:focus {
   color: #FFF;
 }
+.portfolio .portfolio-excerpt {
+  display: none;
+}
 .portfolio p:last-child {
   margin-bottom: 0;
 }
@@ -753,12 +756,17 @@ pre {
   background-color: rgba(0, 0, 0, 0.8);
 }
 @media screen and (min-width: 600px) {
-  .hire-me {
-    font-size: 22px;
-    font-size: 1.375rem;
+  .intro h1 {
+    font-size: 50px;
+    font-size: 3.125rem;
   }
-}
-@media screen and (min-width: 48em) {
+  .intro h2 {
+    font-size: 32px;
+    font-size: 2rem;
+  }
+  .intro hr {
+    width: 320px;
+  }
   .header-links {
     font-size: 14px;
     font-size: 0.875rem;
@@ -819,12 +827,23 @@ pre {
     font-size: 1.5rem;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   h2 {
     font-size: 70px;
     font-size: 4.375rem;
     margin: 0 0 1.5em 0;
     text-align: center;
+  }
+  .intro h1 {
+    font-size: 60px;
+    font-size: 3.75rem;
+  }
+  .intro h2 {
+    font-size: 40px;
+    font-size: 2.5rem;
+  }
+  .intro hr {
+    width: 395px;
   }
   .skills .col {
     min-width: auto;
@@ -835,6 +854,9 @@ pre {
   .skills ul {
     font-size: 18px;
     font-size: 1.125rem;
+  }
+  .portfolio .portfolio-excerpt {
+    display: block;
   }
   .hire-me {
     font-size: 28px;
