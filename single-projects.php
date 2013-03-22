@@ -26,7 +26,11 @@
 				<div class="m_5 col">
 
 					<figure>
-						<?php the_post_thumbnail('project-medium'); ?>
+
+						<?php $image = get_field('project_full_length'); ?>
+
+						<img src="<?php echo $image['sizes']['project-medium']; ?>" />
+
 					</figure>
 
 				</div>
