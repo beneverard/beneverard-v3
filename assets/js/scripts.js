@@ -1,15 +1,26 @@
 $(document).ready(function() {
 
-	$('[href^="#"], [href^="/#"]').on('click', function(event) {
+	$('[href^="/#"]').on('click', function(event) {
 
-		event.preventDefault();
 
 		var $self	= $(this),
 			$target	= $('body');
 
+		// set the target if we're anything other than '/#'...
 		if ( $self.attr('href') !== '/#' ) {
+
+			// ... set the target
 			var $target = $($(this).attr('href'));
+		} else {
+
+			// if we're not on the homepage, allow the link as normal
+			if ( ! $('body').hasClass('home') ) {
+				return;
+			}
+
 		}
+
+		event.preventDefault();
 
 		$.scrollTo($target, 1000);
 

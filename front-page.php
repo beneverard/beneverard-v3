@@ -12,7 +12,7 @@
 
 		</div>
 
-		<a href="#jadore" class="arrow arrow-down">&#8609;</a>
+		<a href="/#jadore" class="arrow arrow-down">&#8609;</a>
 
 	</div>
 
@@ -55,8 +55,8 @@
 
 		</div>
 
-		<a href="#intro" class="arrow arrow-up">&#8607;</a>
-		<a href="#portfolio" class="arrow arrow-down">&#8609;</a>
+		<a href="/#intro" class="arrow arrow-up">&#8607;</a>
+		<a href="/#portfolio" class="arrow arrow-down">&#8609;</a>
 
 	</div>
 
@@ -152,8 +152,8 @@
 
 		</div>
 
-		<a href="#jadore" class="arrow arrow-up">&#8607;</a>
-		<a href="#hire-me" class="arrow arrow-down">&#8609;</a>
+		<a href="/#jadore" class="arrow arrow-up">&#8607;</a>
+		<a href="/#hire-me" class="arrow arrow-down">&#8609;</a>
 
 	</div>
 
@@ -171,7 +171,7 @@
 
 		</div>
 
-		<a href="#portfolio" class="arrow arrow-up">&#8607;</a>
+		<a href="/#portfolio" class="arrow arrow-up">&#8607;</a>
 
 	</div>
 
