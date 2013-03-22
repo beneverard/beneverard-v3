@@ -1,0 +1,45 @@
+/**
+ * Gridpak Beta LESS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+
+/* Reusable column setup */
+.mixin-col {
+	border:0px solid rgba(0,0,0,0);
+	float:left;
+	.box-sizing(border-box);
+	.background-clip(~"padding-box !important");
+}
+
+.col {
+	.mixin-col;
+}
+
+.mixin-span(@num, @gutter_pc, @gutter_px, @padding, @max_columns) {
+	@one_col: (100% - (@gutter_pc * (@max_columns - 1))) / @max_columns;
+	width:(@one_col * @num) + (@gutter_pc * (@num - 1));
+	border-left-width:@gutter_px;
+	padding:@padding;
+	margin-left:@gutter_pc;
+}
+
+.mixin-span_first {
+	margin-left:0;
+}
+
+.col {
+	margin-left:0%;
+	padding:0 1%;
+}
+
+/* --- Gridpak variables ---*/ 
+@max_columns: 12;
+@padding: 0 1%;
+@gutter_px: 0;
+@gutter_pc: 0%;
+
+.row .col:first-child {
+	.mixin-span_first;
+}

@@ -173,106 +173,295 @@ table {
 .mixin-span_first {
   margin-left: 0;
 }
-/* 1. 12 Column Grid 0px - Infinity 
------------------------------------------------------------------------------ 
-
-Span 1:    8.33333333333%
-Span 2:    16.6666666667%
-Span 3:    25.0%
-Span 4:    33.3333333333%
-Span 5:    41.6666666667%
-Span 6:    50.0%
-Span 7:    58.3333333333%
-Span 8:    66.6666666667%
-Span 9:    75.0%
-Span 10:    83.3333333333%
-Span 11:    91.6666666667%
-Span 12:    100%
-
------------------------------------------------------------------------------ */@media screen and (min-width: 0px) {
-  .col {
-    margin-left: 0%;
-    padding: 0 1%;
-  }
-  /* --- Gridpak variables ---*/.row .col:first-child {
-    margin-left: 0;
-  }
-  /*
-  	Add your semantic classnames in alongside their corresponding spans here. e.g.
-  	
-  	.span_3,
-  	.my_semantic_class_name {
-  		...
-  	}
-  	
-  	*/
-  .span_1 {
+.col {
+  margin-left: 0%;
+  padding: 0 1%;
+}
+/* --- Gridpak variables ---*/.row .col:first-child {
+  margin-left: 0;
+}
+.m_1 {
+  width: 8.333333333333334%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_2 {
+  width: 16.666666666666668%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_3 {
+  width: 25%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_4 {
+  width: 33.333333333333336%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_5 {
+  width: 41.66666666666667%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_6 {
+  width: 50%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_7 {
+  width: 58.333333333333336%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_8 {
+  width: 66.66666666666667%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_9 {
+  width: 75%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_10 {
+  width: 83.33333333333334%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_11 {
+  width: 91.66666666666667%;
+  border-left-width: 0;
+  padding: 0 1%;
+  margin-left: 0%;
+}
+.m_12 {
+  margin-left: 0;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .t_1 {
     width: 8.333333333333334%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_2 {
+  .t_2 {
     width: 16.666666666666668%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_3 {
+  .t_3 {
     width: 25%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_4 {
+  .t_4 {
     width: 33.333333333333336%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_5 {
+  .t_5 {
     width: 41.66666666666667%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_6 {
+  .t_6 {
     width: 50%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_7 {
+  .t_7 {
     width: 58.333333333333336%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_8 {
+  .t_8 {
     width: 66.66666666666667%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_9 {
+  .t_9 {
     width: 75%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_10 {
+  .t_10 {
     width: 83.33333333333334%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_11 {
+  .t_11 {
     width: 91.66666666666667%;
     border-left-width: 0;
     padding: 0 1%;
     margin-left: 0%;
   }
-  .span_12 {
+  .t_12 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .d_1 {
+    width: 8.333333333333334%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_2 {
+    width: 16.666666666666668%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_3 {
+    width: 25%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_4 {
+    width: 33.333333333333336%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_5 {
+    width: 41.66666666666667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_6 {
+    width: 50%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_7 {
+    width: 58.333333333333336%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_8 {
+    width: 66.66666666666667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_9 {
+    width: 75%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_10 {
+    width: 83.33333333333334%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_11 {
+    width: 91.66666666666667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .d_12 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1382px) {
+  .w_1 {
+    width: 8.333333333333334%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_2 {
+    width: 16.666666666666668%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_3 {
+    width: 25%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_4 {
+    width: 33.333333333333336%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_5 {
+    width: 41.66666666666667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_6 {
+    width: 50%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_7 {
+    width: 58.333333333333336%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_8 {
+    width: 66.66666666666667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_9 {
+    width: 75%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_10 {
+    width: 83.33333333333334%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_11 {
+    width: 91.66666666666667%;
+    border-left-width: 0;
+    padding: 0 1%;
+    margin-left: 0%;
+  }
+  .w_12 {
     margin-left: 0;
     width: 100%;
   }
