@@ -46,7 +46,7 @@
 
 		<div class="header-links">
 
-			<a href="/">&laquo; Home</a>
+			<a href="/#">&laquo; Home</a>
 			<a href="/projects">Portfolio</a>
 			<a href="/blog">Blog</a>
 
