@@ -33,6 +33,10 @@
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/fonts/ss-standard/ss-standard.css">
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/assets/css/screen.css">
 
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
 		<?php // JAVASCRIPT ?>
 		<script src="<?php bloginfo('template_directory'); ?>/assets/js/libs/modernizr-custom.js"></script>
 
