@@ -991,6 +991,11 @@ h2 {
   margin: 0 0 1.5em 0;
   text-align: center;
 }
+body.blog h2,
+body.archive h2,
+body.single h2 {
+  margin-bottom: 0.75em;
+}
 h3 {
   font-size: 25px;
   font-size: 1.5625rem;
@@ -1505,9 +1510,6 @@ pre {
   }
 }
 @media screen and (min-width: 1170px) {
-  .pane-inner {
-    max-width: 1024px;
-  }
   .arrow {
     visibility: visible;
     opacity: 0.3;
