@@ -1,28 +1,22 @@
 $(document).ready(function() {
 
-	$('[href^="/#"]').on('click', function(event) {
-
-
-		var $self	= $(this),
-			$target	= $('body');
-
-		// set the target if we're anything other than '/#'...
-		if ( $self.attr('href') !== '/#' ) {
-
-			// ... set the target
-			var $target = $($(this).attr('href'));
-		} else {
-
-			// if we're not on the homepage, allow the link as normal
-			if ( ! $('body').hasClass('home') ) {
-				return;
-			}
-
-		}
+	$('[href^="#"]').on('click', function(event) {
 
 		event.preventDefault();
 
-		$.scrollTo($target, 1000);
+		$.scrollTo($($(this).attr('href')), 1000);
+
+	});
+
+	$('.header-links .home').on('click', function(event) {
+
+		if ( $('body').hasClass('home') ) {
+
+			event.preventDefault();
+
+			$.scrollTo($('body'), 1000);
+
+		}
 
 	});
 
