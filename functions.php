@@ -29,6 +29,32 @@ remove_action('wp_head', 'index_rel_link'); // index link
 remove_action('wp_head', 'wp_generator'); // Display the XHTML generator that is generated on the wp_head hook, WP version
 
 
+ //********
+// EXCERPT
+
+$excerpt_length = 35;
+
+function _the_excerpt($length = 30) {
+
+	global $excerpt_length;
+
+	$excerpt_length = $length;
+
+	the_excerpt();
+
+}
+
+add_filter('excerpt_length', function($length) {
+	global $excerpt_length;
+	return $excerpt_length;
+}, 999);
+
+
+add_filter('wp_trim_excerpt', function($excerpt) {
+	return str_replace('[...]', '...', $excerpt);
+});
+
+
  //*******************
 // $CUSTOM_POST_TYPES
 
