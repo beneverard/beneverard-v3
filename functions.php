@@ -100,3 +100,9 @@ _register_post_type(
 		'has_archive'	=> TRUE
 	)
 );
+
+
+ //**********
+// $INCLUDES
+
+require_once('functions/hacks.php');
