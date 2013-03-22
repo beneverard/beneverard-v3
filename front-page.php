@@ -92,7 +92,11 @@
 								<div class="span_5 col">
 
 									<figure>
-										<?php the_post_thumbnail('project-medium'); ?>
+
+										<?php $image = get_field('project_thumbnail'); ?>
+
+										<img src="<?php echo $image['sizes']['project-thumbnail']; ?>" />
+
 									</figure>
 
 								</div>
