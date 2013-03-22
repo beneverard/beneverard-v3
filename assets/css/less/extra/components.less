@@ -46,6 +46,19 @@
 @-ms-keyframes arrow-pulsate { .arrow-pulsate-keyframes(); }
 @-o-keyframes arrow-pulsate { .arrow-pulsate-keyframes(); }
 @keyframes arrow-pulsate { .arrow-pulsate-keyframes(); }
+
+.arrow-show() {
+	visibility: visible;
+	.opacity(30);
+	.transition(opacity 0.4s linear);
+}
+
+.arrow-hide() {
+	visibility: hidden;
+	.opacity(0);
+	.transition(~"visibility 0s 0.4s, opacity 0.4s linear");
+}
+
 .arrow {
 	.font-size(80);
 	text-decoration: none;
@@ -56,8 +69,7 @@
 	text-align: center;
 	line-height: 1;
 	color: #FFF;
-	.opacity(30);
-	.transition(all 0.5s ease-in-out);
+	.arrow-hide();
 	-webkit-animation: arrow-pulsate 4s infinite;
 }
 
