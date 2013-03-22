@@ -1,10 +1,17 @@
 $(document).ready(function() {
 
-	$("[href^='#']").on('click', function(event) {
+	$('[href^="#"], [href^="/#"]').on('click', function(event) {
 
 		event.preventDefault();
 
-		$.scrollTo( $($(this).attr('href')), 1000 );
+		var $self	= $(this),
+			$target	= $('body');
+
+		if ( $self.attr('href') !== '/#' ) {
+			var $target = $($(this).attr('href'));
+		}
+
+		$.scrollTo($target, 1000);
 
 	});
 
