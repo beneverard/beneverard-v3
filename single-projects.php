@@ -23,7 +23,7 @@
 			
 			<div class="row / portfolio portfolio-item">
 		
-				<div class="span_5 col">
+				<div class="m_5 col">
 
 					<figure>
 						<?php the_post_thumbnail('project-medium'); ?>
@@ -31,7 +31,7 @@
 
 				</div>
 
-				<div class="span_7 col / portfolio-content">
+				<div class="m_7 col / portfolio-content">
 
 					<h3><?php the_title(); ?></h3>
 					<p class="project-url"><a href="<?php the_field('project_url'); ?>"><?php the_field('project_url'); ?></a></p>

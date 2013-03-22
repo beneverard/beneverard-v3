@@ -28,7 +28,7 @@
 
 					<?php while ( has_sub_field('skills_lists') ) : ?>
 
-						<div class="span_4 col">
+						<div class="m_4 col">
 							
 							<h3><?php the_sub_field('skills_list_title'); ?></h3>
 							<p><span class="ss-icon ss-standard ss-down"></span></p>
@@ -89,7 +89,7 @@
 
 							<li class="row / portfolio-item">
 						
-								<div class="span_5 col">
+								<div class="col m_6">
 
 									<figure>
 
@@ -101,7 +101,7 @@
 
 								</div>
 
-								<div class="span_7 col / portfolio-content">
+								<div class=" col m_6 / portfolio-content">
 
 									<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 									<p class="project-url"><a href="<?php the_field('project_url'); ?>"><?php the_field('project_url'); ?></a></p>
