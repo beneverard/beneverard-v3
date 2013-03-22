@@ -106,7 +106,9 @@
 									<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 									<p class="project-url"><a href="<?php the_field('project_url'); ?>"><?php the_field('project_url'); ?></a></p>
 
-									<?php the_excerpt(); ?>
+									<div class="portfolio-excerpt">
+										<?php _the_excerpt(); ?>
+									</div>
 
 									<a class="project-link" href="<?php the_permalink(); ?>">View Project</a>
 
