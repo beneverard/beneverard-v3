@@ -1083,14 +1083,26 @@ figure img {
   border-radius: 0;
 }
 article {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 22px;
+  font-size: 1.375rem;
 }
 article h2 {
   font-size: 24px;
   font-size: 1.5rem;
   margin-bottom: 0.5em;
   text-align: left;
+}
+.article-heading {
+  margin: 4em 0;
+}
+.article-heading h2 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  margin: 0 0 1.5em 0;
+  text-align: center;
+}
+.comments {
+  padding-top: 6em;
 }
 pre {
   margin: 0 0 1em 0;
