@@ -1492,7 +1492,7 @@ pre {
     width: 395px;
   }
   .skills .col {
-    min-width: auto;
+    min-width: 0;
   }
   .skills p {
     display: block;
